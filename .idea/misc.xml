@@ -5,9 +5,14 @@
       <map>
         <entry key="app/src/main/res/drawable/bottom_drawable.xml" value="0.1765" />
         <entry key="app/src/main/res/drawable/fragment_drawable.xml" value="0.1765" />
+        <entry key="app/src/main/res/drawable/message_drawable.xml" value="0.1765" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.328125" />
+        <entry key="app/src/main/res/layout/fragment_chat.xml" value="0.328125" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="app/src/main/res/layout/fragment_message.xml" value="0.328125" />
         <entry key="app/src/main/res/layout/image_adapter.xml" value="0.328125" />
+        <entry key="app/src/main/res/layout/message_list_layout.xml" value="0.328125" />
+        <entry key="app/src/main/res/layout/receiver_list.xml" value="0.328125" />
         <entry key="app/src/main/res/menu/user_bottom_menu.xml" value="0.328125" />
       </map>
     </option>
