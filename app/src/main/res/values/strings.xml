@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">Tinder</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="terms_and_condition">By clicking Login In, you agree with our Terms. Learn how we process your data in our Privacy Policy and Coolies Policy.</string>
+    <string name="phone_condition">When you tap Continue, Tinder will sent a text with verification code. Message and data rates may apply. The verified phone number can be used to login.</string>
+    <string name="google_logo">Google logo</string>
+    <string name="log_in_with_google">LOG IN WITH GOOGLE</string>
+    <string name="phone_logo">Phone logo</string>
+    <string name="log_in_with_phone_number">LOG IN WITH PHONE NUMBER</string>
+    <string name="my_number_is">My number is</string>
+    <string name="in_91">In +91</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="continue_text">CONTINUE</string>
+    <string name="otp_verification_text">OTP has been send to your Mobile phone. Please enter it below.</string>
+    <string name="verify">Verify</string>
+    <string name="resend_code">Resend Code</string>
+    <string name="name">Name</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="gender">Gender</string>
+    <string name="women">WOMEN</string>
+    <string name="man">MAN</string>
+    <string name="my_sexual_orientation_is">My sexual orientation is</string>
+    <string name="show_me">Show Me</string>
+    <string name="men">MEN</string>
+    <string name="everyone">EVERYONE</string>
+    <string name="add_photos">Add photos</string>
+    <string name="image">Image</string>
+    <string name="add_image_photo">Add image photo</string>
+    <string name="save">Save</string>
+
 </resources>
