@@ -39,4 +39,8 @@
         <item name="android:background">@drawable/otp_edit_text_drawable</item>
     </style>
 
+    <style name="bottomNavItemColor">
+        <item name="android:background">@drawable/bottom_drawable</item>
+    </style>
+
 </resources>

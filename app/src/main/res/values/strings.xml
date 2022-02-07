@@ -29,5 +29,6 @@
     <string name="image">Image</string>
     <string name="add_image_photo">Add image photo</string>
     <string name="save">Save</string>
+    <string name="tinder">tinder</string>
 
 </resources>
