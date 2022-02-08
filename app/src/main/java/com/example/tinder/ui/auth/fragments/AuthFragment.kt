@@ -147,7 +147,7 @@ class AuthFragment : Fragment() , KodeinAware{
                         fragmentActivity.finish()
                     } else {
                         findNavController()
-                            .navigate(R.id.action_otp_to_user_details_fragment)
+                            .navigate(R.id.action_auth_to_user_details_fragment)
                     }
                 }
                 is Results.Error -> {

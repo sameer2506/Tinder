@@ -13,7 +13,6 @@ import android.os.Bundle
 import android.os.Environment
 import android.provider.Settings
 import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -24,6 +23,7 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
+import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.lifecycle.ViewModelProvider
 import com.example.tinder.AppPreferences
@@ -43,17 +43,12 @@ import com.squareup.picasso.Picasso
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
-import org.kodein.di.Kodein
 import org.kodein.di.KodeinAware
-import java.text.DecimalFormat
-import java.text.NumberFormat
-import java.util.concurrent.TimeUnit
 import org.kodein.di.android.x.kodein
 import org.kodein.di.generic.instance
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.*
-import kotlin.collections.HashMap
 
 
 class UserDetailsFragment : Fragment(), KodeinAware {
@@ -218,12 +213,12 @@ class UserDetailsFragment : Fragment(), KodeinAware {
                 val percentComplete = if (taskSnapshot.totalByteCount > 0) {
                     (100 * taskSnapshot.bytesTransferred / taskSnapshot.totalByteCount).toInt()
                 } else 0
-                showProgressNotification(
-                    requireContext(),
-                    "Shop Details",
-                    "Uploading image.",
-                    percentComplete
-                )
+//                showProgressNotification(
+//                    requireContext(),
+//                    "Shop Details",
+//                    "Uploading image.",
+//                    percentComplete
+//                )
             }.continueWithTask { task ->
                 // Forward any executions
                 if (!task.isSuccessful) {
@@ -244,12 +239,12 @@ class UserDetailsFragment : Fragment(), KodeinAware {
                         image2 = it.toString()
                     }
                 }
-                showUploadFinishedNotification(requireContext(), "Shop Details", it)
+//                showUploadFinishedNotification(requireContext(), "Shop Details", it)
                 pd.dismiss()
             }
             .addOnFailureListener {
                 log(it.localizedMessage!!)
-                showUploadFinishedNotification(requireContext(), "Shop Details", null)
+//                showUploadFinishedNotification(requireContext(), "Shop Details", null)
                 pd.dismiss()
             }
     }

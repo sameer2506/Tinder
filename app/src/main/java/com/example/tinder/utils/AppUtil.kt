@@ -80,6 +80,6 @@ fun showProgressNotification(context: Context, title: String, caption: String, p
             notificationId = title.hashCode()
             contentTitle = title
             contentText = caption
-            smallIcon = R.drawable.camera
+            smallIcon = R.drawable.notif_add_a_photo_blue_24dp
         }
 }

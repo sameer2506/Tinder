@@ -14,6 +14,10 @@
             android:id="@+id/auth_to_phone_auth_fragment"
             app:destination="@id/phone_auth_fragment"/>
 
+        <action
+            android:id="@+id/action_auth_to_user_details_fragment"
+            app:destination="@id/user_details_fragment" />
+
     </fragment>
 
     <fragment

@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/notif_add_a_photo_blue_24dp.xml" value="0.1765" />
         <entry key="app/src/main/res/drawable/bottom_drawable.xml" value="0.1765" />
         <entry key="app/src/main/res/drawable/fragment_drawable.xml" value="0.1765" />
         <entry key="app/src/main/res/drawable/message_drawable.xml" value="0.1765" />
